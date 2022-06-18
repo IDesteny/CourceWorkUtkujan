@@ -8,7 +8,7 @@ protected:
 	HDC hdc = GetDC(GetConsoleWindow());
 
 public:
-	virtual ~Figure() = default;
+	virtual ~Figure();
 
 	explicit Figure(int x1, int y1, int x2, int y2) noexcept;
 
